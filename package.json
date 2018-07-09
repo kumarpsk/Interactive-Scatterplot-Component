@@ -13,7 +13,7 @@
   "author": "Kumar Palanisamy",
   "license": "MIT",
   "scripts": {
-    "run": "cross-env NODE_ENV=development node app"
+    "start": "cross-env NODE_ENV=development node app"
   },
   "dependencies": {
     "babel-polyfill": "6.26.0",
