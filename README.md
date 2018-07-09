@@ -29,3 +29,10 @@ var data = [{
     }]
 }
 ```
+```
+Note
+Required Node and Npm version
+
+"npm": ">=3",
+"node": ">=5"
+```
