@@ -1,0 +1,62 @@
+{
+  "name": "interactivescatterplotcomponent",
+  "version": "1.0.0",
+  "description": "Interactive Scatterplot Component",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "engines": {
+    "npm": ">=3",
+    "node": ">=5"
+  },
+  "author": "Kumar Palanisamy",
+  "license": "MIT",
+  "scripts": {
+    "run": "cross-env NODE_ENV=development node app"
+  },
+  "dependencies": {
+    "babel-polyfill": "6.26.0",
+    "cors": "^2.8.4",
+    "cross-env": "5.1.4",
+    "express": "4.16.3",
+    "react": "16.3.2",
+    "react-dom": "16.3.2",
+    "d3-axis": "^1.0.4",
+    "d3-interpolate": "^1.1.2",
+    "d3-scale": "^1.0.4",
+    "d3-selection": "^1.0.3",
+    "moment": "^2.22.2"
+  },
+  "devDependencies": {
+    "add-asset-html-webpack-plugin": "2.1.3",
+    "babel-cli": "6.26.0",
+    "babel-core": "6.26.0",
+    "babel-loader": "7.1.4",
+    "babel-plugin-dynamic-import-node": "1.2.0",
+    "babel-plugin-react-transform": "3.0.0",
+    "babel-plugin-transform-es2015-modules-commonjs": "6.26.0",
+    "babel-plugin-transform-react-constant-elements": "6.23.0",
+    "babel-plugin-transform-react-inline-elements": "6.22.0",
+    "babel-plugin-transform-react-remove-prop-types": "0.4.13",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "6.24.1",
+    "babel-preset-stage-0": "6.24.1",
+    "circular-dependency-plugin": "5.0.2",
+    "css-loader": "0.28.11",
+    "eventsource-polyfill": "0.9.6",
+    "exports-loader": "0.7.0",
+    "file-loader": "1.1.11",
+    "html-loader": "0.5.5",
+    "html-webpack-plugin": "3.2.0",
+    "image-webpack-loader": "4.2.0",
+    "imports-loader": "0.8.0",
+    "node-sass": "^4.7.2",
+    "sass-loader": "^7.0.1",
+    "style-loader": "0.20.3",
+    "webpack": "4.5.0",
+    "webpack-cli": "^2.0.10",
+    "webpack-dev-middleware": "3.1.2",
+    "webpack-hot-middleware": "2.21.2"
+  }
+}
